@@ -1,0 +1,256 @@
+@keyframes popUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* Rest of your CSS styles */
+
+
+#logo {
+    font-size: 170px;
+    margin-bottom: -30px;
+    color: #eeeeee;
+    font-weight: bolder;
+    margin-top: 245px;
+    animation: popUp 1s ease-out forwards;
+}
+
+#missionStatement {
+    color: #eeeeee;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    word-spacing: 3px;
+    margin-bottom: -20px;
+    animation: popUp 1.2s ease-out forwards;
+}
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background: linear-gradient(to right, #00ff88, #0352fc);
+    border-radius: 30px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #e7e2d6 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 54px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 140px;
+    padding-right: 140px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    animation: popUp 1.4s ease-out forwards;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+    background: linear-gradient(to right, #fcdf03, #ff7b00);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+    background: linear-gradient(to right, #fca903, #ff6200);
+}
+
+@keyframes popDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+#header {
+    display: flex;
+    /* Use flexbox to align items horizontally */
+    align-items: center;
+    /* Vertically center the items */
+    justify-content: center;
+    /* Center the header text */
+    color: #eeeeee;
+    font-size: 18px;
+    margin-top: 35px;
+    position: relative;
+    /* Enable positioning for the icon */
+    gap: 10px;
+    animation: popDown 1s ease-out forwards;
+}
+
+#linkedInPng {
+    width: 45px;
+    position: absolute;
+    /* Position the icon */
+    right: 0;
+    /* Align it to the far right */
+    top: -5%;
+    /* Vertically center it */
+    transform: translateY(-50%);
+    /* Adjust for perfect vertical alignment */
+    animation: popDown 1s ease-out forwards;
+}
+
+
+/* CSS */
+#button-23 {
+    background-color: transparent;
+    border: 1px solid #767575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+    animation: popDown 1s ease-out forwards;
+}
+
+#button-23:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+    animation: popDown 1s ease-out forwards;
+}
+
+#button-23:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+    animation: popDown 1s ease-out forwards;
+}
+
+#button-23:hover {
+    background: linear-gradient(to right, #696868, #434343);
+    color: rgb(0, 0, 0);
+    transform: translateY(3px);
+    animation: popDown 1s ease-out forwards;
+
+
+}
+
+#button-23:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+    animation: popDown 1s ease-out forwards;
+}
+
+
+#backBtn {
+    position: absolute;
+    left: 0;
+    animation: popDown 1s ease-out forwards;
+
+}
+
+
+
+
+
+#backBtn {
+    background-color: white;
+    border: 1px solid #767575;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 10px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+    animation: popDown 1s ease-out forwards;
+}
+
+#backBtn:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+}
+
+#backBtn:active {
+    background-color: #F7F7F7;
+    border-color: #ffffff;
+    transform: scale(4);
+}
+
+#backBtn:hover {
+    background: black;
+    color: white;
+    transform: translateY(3px);
+
+
+}
+
+#backBtn:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+
+#backBtn {
+    position: absolute;
+    left: 0;
+    margin-bottom: 10px;
+
+}
