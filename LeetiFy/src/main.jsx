@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
     <Home></Home>
-    if (tr){}
+
 
   </React.StrictMode>,
 )

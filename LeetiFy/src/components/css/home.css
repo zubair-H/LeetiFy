@@ -103,25 +103,31 @@
 }
 
 
+
 #header {
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
-    /* Use flexbox to align items horizontally */
     align-items: center;
-    /* Vertically center the items */
     justify-content: center;
-    /* Center the header text */
-    color: #eeeeee;
-    font-size: 18px;
-    margin-top: 35px;
-    position: relative;
-    /* Enable positioning for the icon */
     gap: 10px;
+
+
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    /* Ensures the header stays on top of other elements */
     animation: popDown 1s ease-out forwards;
 }
 
 #linkedInPng {
+
+    margin-top: 14px;
     width: 45px;
     position: absolute;
+    margin-right: 55px;
     /* Position the icon */
     right: 0;
     /* Align it to the far right */
@@ -193,7 +199,7 @@
 
 #backBtn {
     position: absolute;
-    left: 0;
+
     animation: popDown 1s ease-out forwards;
 
 }
