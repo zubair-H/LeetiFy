@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './css/home.css';
 import image from './pics/linkedin-app-white-icon.webp';
 import Page1 from './Page1';
+import Arrays from './Arrays';
 
 export default function Home() {
     const [showNewPage, setShowNewPage] = useState(false);
@@ -24,6 +25,7 @@ export default function Home() {
     return (
         <div id="container">
             <div>
+
                 <div id="header">
                     <img id="linkedInPng" src={image} alt="" />
                     <button id="backBtn" onClick={() => setShowNewPage(false)}>Back</button>
@@ -39,6 +41,8 @@ export default function Home() {
             {showNewPage && (
                 <div ref={newPageRef}>
                     <Page1 />
+                    <Arrays></Arrays>
+
                 </div>
             )}
         </div>
