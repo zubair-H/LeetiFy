@@ -1,5 +1,6 @@
 import React from 'react';
 import Plot from 'react-plotly.js';
+import Page1 from './Page1';
 
 export default function Graph() {
     return (
@@ -8,7 +9,7 @@ export default function Graph() {
                 data={[
                     {
                         labels: ['Remaining', 'Completed'],
-                        values: [2, 5],
+                        values: [75, counter],
                         type: 'pie',
                         hole: 0.7,
                         textinfo: 'label+percent',
@@ -48,3 +49,4 @@ export default function Graph() {
         </div>
     );
 }
+
