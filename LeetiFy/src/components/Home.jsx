@@ -38,8 +38,6 @@ export default function Home() {
                         <img id="linkedInPng" src={image} alt="" />
                     </a>
 
-
-
                     <button id="backBtn" onClick={handleBackClick}>Back</button>
 
                     <a href="https://github.com/zubair-H" target="_blank" rel="noopener noreferrer">

@@ -85,10 +85,14 @@ export default function Page1() {
                 type="checkbox"
                 ref={handleRef('c1')}
                 onClick={() => handleCheckboxClick('c1')}
-              />  <p  className='tone' id='t1'>1. (Difficulty: Easy) Two Sum </p>
-             
-              
-              
+              />
+              <a id='links'  href="https://leetcode.com/problems/two-sum/description/" target="_blank" rel="noopener noreferrer" >
+                <p className='tone' id='t1'>1. (Difficulty: Easy) Two Sum </p>
+              </a>
+
+
+
+
               <div id='innerBtn'>
                 <Inner id='o1'></Inner>
               </div>
@@ -101,7 +105,9 @@ export default function Page1() {
                 ref={handleRef('c2')}
                 onClick={() => handleCheckboxClick('c2')}
               />
+              <a id='links'  href="https://leetcode.com/problems/two-sum/description/" target="_blank" rel="noopener noreferrer" >
               <p id='t2'>2. (Difficulty: Easy) Best Time to Buy and Sell Stock </p>
+              </a>
               <div id='innerBtn'>
                 <Inner id='o2'></Inner>
               </div>
@@ -294,8 +300,60 @@ export default function Page1() {
 
           </ul>
         </div>
+        <div className='graph'>
+        <div>
+  <Plot
+    data={[
+      {
+        labels: ['Remaining', 'Completed'],
+        values: [75 - counter, counter],
+        type: 'pie',
+        textinfo: 'label+percent',
+        marker: {
+          colors: ['#FFFFFF', '#32CD32'] // Example colors for segments
+        },
+        hole: 0.867,
+        textposition: 'outside',
+        textfont: {
+          family: 'JetBrains Mono, monospace',
+          size: 18,
+          color: ['#FFFFFF', '#32CD32'] // Specify the colors for the labels
+        },
+        domain: {
+          x: [0, 1],
+          y: [0, 1]
+        }
+      },
+    ]}
+    layout={{
+      width: 560,
+      height: 830,
+      title: {
+        text: 'Overall Progress',
+        x: 0.55,
+        y: 0.47,
+        xanchor: 'center',
+        yanchor: 'bottom',
+        font: {
+          family: 'JetBrains Mono, monospace', // Change font family here
+          size: 20,         // Font size
+          color: '#fff',    // Font color
+        }
+      },
+      margin: { l: 70, r: 20, b: 20, t: 50 },
+      showlegend: false,
+      paper_bgcolor: 'rgb(0,0,0)',
+      plot_bgcolor: 'rgb(255,255,255)'
+    }}
+    config={{
+      displayModeBar: false,
+    }}
+  />
+</div>
 
-        
+        </div>
+
+
 
         <div className="box">
           <ul className="list">
@@ -573,59 +631,7 @@ export default function Page1() {
 
           </ul>
         </div>
-        <div className='graph'>
-          <div>
-            <Plot
-              data={[
-                {
-                  labels: ['Remaining', 'Completed'],
-                  values: [75 - counter, counter],
-                  type: 'pie',
-                  textinfo: 'label+percent',
-                  marker: {
-                    colors: ['#FFFFFF', '#32CD32'] // Example colors for segments
-                  },
-                  hole: 0.867,
-                  textposition: 'outside',
-                  textfont: {
-                    family: 'Arial, sans-serif',
-                    size: 18,
-                    color: ['#FFFFFF', '#32CD32'] // Specify the colors for the labels
-                  },
-
-
-                  domain: {
-                    x: [0, 1],
-                    y: [0, 1]
-                  }
-                },
-              ]}
-              layout={{
-                width: 560,
-                height: 830,
-                title: {
-                  text: 'Overall Progress',
-                  x: 0.55,
-                  y: 0.47,
-                  xanchor: 'center',
-                  yanchor: 'bottom',
-                  font: {  // Customize font properties
-                    size: 20,         // Font size
-                    color: '#fff',    // Font color
-                  }
-                },
-                margin: { l: 70, r: 20, b: 20, t: 50 },
-                showlegend: false,
-                paper_bgcolor: 'rgb(0,0,0)',
-                plot_bgcolor: 'rgb(255,255,255)'
-
-              }}
-              config={{
-                displayModeBar: false,
-              }}
-            />
-          </div>
-        </div>
+      
 
 
         <div className="box">
