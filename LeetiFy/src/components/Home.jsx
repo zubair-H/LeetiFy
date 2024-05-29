@@ -16,14 +16,14 @@ export default function Home() {
         setShowNewPage(true);
         setTimeout(() => {
             newPageRef.current.scrollIntoView({ behavior: 'smooth' });
-        }, 0); // Adjust the delay if necessary
+        }, 500); // Adjust the delay if necessary
     };
 
     const handleBackClick = () => {
         const scrollOptions = {
             top: 0,
             behavior: 'smooth', // Smooth scroll behavior
-            duration: 5000 // Duration of the scroll animation (milliseconds)
+            duration: 500 // Duration of the scroll animation (milliseconds)
         };
         window.scrollTo(scrollOptions);
         setShowNewPage(false);

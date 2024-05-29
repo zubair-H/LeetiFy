@@ -67,7 +67,7 @@ export default function Page1() {
     const isChecked = checkbox.checked;
     check(checkboxId, isChecked);
   };
-  console.log(counter);
+  
 
   return (
     <>
