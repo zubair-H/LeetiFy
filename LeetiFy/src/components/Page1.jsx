@@ -86,7 +86,7 @@ export default function Page1() {
                 ref={handleRef('c1')}
                 onClick={() => handleCheckboxClick('c1')}
               />
-              <a id='links'  href="https://leetcode.com/problems/two-sum/description/" target="_blank" rel="noopener noreferrer" >
+              <a id='links' href="https://leetcode.com/problems/two-sum/description/" target="_blank" rel="noopener noreferrer" >
                 <p className='tone' id='t1'>1. (Difficulty: Easy) Two Sum </p>
               </a>
 
@@ -105,8 +105,8 @@ export default function Page1() {
                 ref={handleRef('c2')}
                 onClick={() => handleCheckboxClick('c2')}
               />
-              <a id='links'  href="https://leetcode.com/problems/two-sum/description/" target="_blank" rel="noopener noreferrer" >
-              <p id='t2'>2. (Difficulty: Easy) Best Time to Buy and Sell Stock </p>
+              <a id='links' href="https://leetcode.com/problems/two-sum/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t2'>2. (Difficulty: Easy) Best Time to Buy and Sell Stock </p>
               </a>
               <div id='innerBtn'>
                 <Inner id='o2'></Inner>
@@ -120,7 +120,10 @@ export default function Page1() {
                 ref={handleRef('c3')}
                 onClick={() => handleCheckboxClick('c3')}
               />
-              <p id='t3'>3. (Difficulty: Easy) Contains Duplicate </p>
+
+              <a id='links' href="https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions" target="_blank" rel="noopener noreferrer" >
+                <p id='t3'>3. (Difficulty: Easy) Contains Duplicate </p>
+              </a>
               <div id='innerBtn'>
                 <Inner id='o3'></Inner>
               </div>
@@ -134,7 +137,10 @@ export default function Page1() {
                 ref={handleRef('c4')}
                 onClick={() => handleCheckboxClick('c4')}
               />
-              <p id='t4'>4. (Difficulty: Medium) Product of Array Except Self </p>
+              <a id='links' href="https://leetcode.com/problems/product-of-array-except-self/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t4'>4. (Difficulty: Medium) Product of Array Except Self </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o4'></Inner>
               </div>
@@ -147,7 +153,10 @@ export default function Page1() {
                 ref={handleRef('c5')}
                 onClick={() => handleCheckboxClick('c5')}
               />
-              <p id='t5'>5. (Difficulty: Medium) Maximum Subarray </p>
+              <a id='links' href="https://leetcode.com/problems/maximum-subarray/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t5'>5. (Difficulty: Medium) Maximum Subarray </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o5'></Inner>
               </div>
@@ -160,7 +169,10 @@ export default function Page1() {
                 ref={handleRef('c6')}
                 onClick={() => handleCheckboxClick('c6')}
               />
-              <p id='t6'>6. (Difficulty: Medium) Maximum Subarray </p>
+              <a id='links' href="https://leetcode.com/problems/maximum-product-subarray/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t6'>6. (Difficulty: Medium) Maximum Product Subarray </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o6'></Inner>
               </div>
@@ -173,7 +185,10 @@ export default function Page1() {
                 ref={handleRef('c7')}
                 onClick={() => handleCheckboxClick('c7')}
               />
-              <p id='t7'>7. (Difficulty: Medium) Find Minimum in Rotated Sorted Array </p>
+              <a id='links' href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t7'>7. (Difficulty: Medium) Find Minimum in Rotated Sorted Array </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o7'></Inner>
               </div>
@@ -186,7 +201,10 @@ export default function Page1() {
                 ref={handleRef('c8')}
                 onClick={() => handleCheckboxClick('c8')}
               />
-              <p id='t8'>8. (Difficulty: Medium) Search in Rotated Sorted Array </p>
+              <a id='links' href="https://leetcode.com/problems/search-in-rotated-sorted-array/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t8'>8. (Difficulty: Medium) Search in Rotated Sorted Array </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o8'></Inner>
               </div>
@@ -199,7 +217,10 @@ export default function Page1() {
                 ref={handleRef('c9')}
                 onClick={() => handleCheckboxClick('c9')}
               />
-              <p id='t9'>9. (Difficulty: Medium) 3 Sum </p>
+              <a id='links' href="https://leetcode.com/problems/3sum/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t9'>9. (Difficulty: Medium) 3 Sum </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o9'></Inner>
               </div>
@@ -212,7 +233,10 @@ export default function Page1() {
                 ref={handleRef('c10')}
                 onClick={() => handleCheckboxClick('c10')}
               />
-              <p id='t10'>10. (Difficulty: Medium) 3 Sum </p>
+              <a id='links' href="https://leetcode.com/problems/container-with-most-water/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t10'>10. (Difficulty: Medium) Container With Most Water</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o10'></Inner>
               </div>
@@ -227,6 +251,7 @@ export default function Page1() {
           </ul>
         </div>
 
+
         <div className="box">
           <ul className="list">
             <li id="topicArrays">Topic: Binary</li>
@@ -237,7 +262,10 @@ export default function Page1() {
                 ref={handleRef('c11')}
                 onClick={() => handleCheckboxClick('c11')}
               />
-              <p id='t11'>1. (Difficulty: Medium) Sum of Two Integers </p>
+              <a id='links' href="https://leetcode.com/problems/sum-of-two-integers/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t11'>1. (Difficulty: Medium) Sum of Two Integers </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o11'></Inner>
               </div>
@@ -250,7 +278,10 @@ export default function Page1() {
                 ref={handleRef('c12')}
                 onClick={() => handleCheckboxClick('c12')}
               />
-              <p id='t12'>2. (Difficulty: Medium) Number of 1 Bits </p>
+              <a id='links' href="https://leetcode.com/problems/number-of-1-bits/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t12'>2. (Difficulty: Easy) Number of 1 Bits </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o12'></Inner>
               </div>
@@ -263,7 +294,10 @@ export default function Page1() {
                 ref={handleRef('c13')}
                 onClick={() => handleCheckboxClick('c13')}
               />
-              <p id='t13'>3. (Difficulty: Medium) Counting Bits </p>
+              <a id='links' href="https://leetcode.com/problems/counting-bits/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t13'>3. (Difficulty: Easy) Counting Bits </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o13'></Inner>
               </div>
@@ -276,7 +310,10 @@ export default function Page1() {
                 ref={handleRef('c14')}
                 onClick={() => handleCheckboxClick('c14')}
               />
-              <p id='t14'>4. (Difficulty: Medium) Missing Number </p>
+              <a id='links' href="https://leetcode.com/problems/missing-number/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t14'>4. (Difficulty: Easy) Missing Number </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o14'></Inner>
               </div>
@@ -289,7 +326,10 @@ export default function Page1() {
                 ref={handleRef('c15')}
                 onClick={() => handleCheckboxClick('c15')}
               />
-              <p id='t15'>5. (Difficulty: Medium) Reverse Bits</p>
+              <a id='links' href="https://leetcode.com/problems/reverse-bits/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t15'>5. (Difficulty: Easy) Reverse Bits</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o15'></Inner>
               </div>
@@ -301,59 +341,57 @@ export default function Page1() {
           </ul>
         </div>
         <div className='graph'>
-        <div>
-  <Plot
-    data={[
-      {
-        labels: ['Remaining', 'Completed'],
-        values: [75 - counter, counter],
-        type: 'pie',
-        textinfo: 'label+percent',
-        marker: {
-          colors: ['#FFFFFF', '#32CD32'] // Example colors for segments
-        },
-        hole: 0.867,
-        textposition: 'outside',
-        textfont: {
-          family: 'JetBrains Mono, monospace',
-          size: 18,
-          color: ['#FFFFFF', '#32CD32'] // Specify the colors for the labels
-        },
-        domain: {
-          x: [0, 1],
-          y: [0, 1]
-        }
-      },
-    ]}
-    layout={{
-      width: 560,
-      height: 830,
-      title: {
-        text: 'Overall Progress',
-        x: 0.55,
-        y: 0.47,
-        xanchor: 'center',
-        yanchor: 'bottom',
-        font: {
-          family: 'JetBrains Mono, monospace', // Change font family here
-          size: 20,         // Font size
-          color: '#fff',    // Font color
-        }
-      },
-      margin: { l: 70, r: 20, b: 20, t: 50 },
-      showlegend: false,
-      paper_bgcolor: 'rgb(0,0,0)',
-      plot_bgcolor: 'rgb(255,255,255)'
-    }}
-    config={{
-      displayModeBar: false,
-    }}
-  />
-</div>
+          <div>
+            <Plot
+              data={[
+                {
+                  labels: ['Remaining', 'Completed'],
+                  values: [75 - (counter-1), counter],
+                  type: 'pie',
+                  textinfo: 'label+percent',
+                  marker: {
+                    colors: ['#FFFFFF', '#32CD32'] // Example colors for segments
+                  },
+                  hole: 0.867,
+                  textposition: 'outside',
+                  textfont: {
+                    family: 'JetBrains Mono, monospace',
+                    size: 18,
+                    color: ['#FFFFFF', '#54b87e'] // Specify the colors for the labels
+                  },
+                  domain: {
+                    x: [0, 1],
+                    y: [0, 1]
+                  }
+                },
+              ]}
+              layout={{
+                width: 560,
+                height: 830,
+                title: {
+                  text: 'Overall Progress',
+                  x: 0.55,
+                  y: 0.47,
+                  xanchor: 'center',
+                  yanchor: 'bottom',
+                  font: {
+                    family: 'JetBrains Mono, monospace', // Change font family here
+                    size: 20,         // Font size
+                    color: '#fff',    // Font color
+                  }
+                },
+                margin: { l: 70, r: 20, b: 20, t: 50 },
+                showlegend: false,
+                paper_bgcolor: 'rgb(0,0,0)',
+                plot_bgcolor: 'rgb(255,255,255)'
+              }}
+              config={{
+                displayModeBar: false,
+              }}
+            />
+          </div>
 
         </div>
-
-
 
         <div className="box">
           <ul className="list">
@@ -365,7 +403,10 @@ export default function Page1() {
                 ref={handleRef('c16')}
                 onClick={() => handleCheckboxClick('c16')}
               />
-              <p id='t16'>1. (Difficulty: Easy) Climbing Stairs</p>
+              <a id='links' href="https://leetcode.com/problems/climbing-stairs/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t16'>1. (Difficulty: Easy) Climbing Stairs</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o16'></Inner>
               </div>
@@ -378,7 +419,10 @@ export default function Page1() {
                 ref={handleRef('c17')}
                 onClick={() => handleCheckboxClick('c17')}
               />
-              <p id='t17'>2. (Difficulty: Medium) Coin Change</p>
+              <a id='links' href="https://leetcode.com/problems/coin-change/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t17'>2. (Difficulty: Medium) Coin Change</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o12'></Inner>
               </div>
@@ -391,7 +435,10 @@ export default function Page1() {
                 ref={handleRef('c18')}
                 onClick={() => handleCheckboxClick('c18')}
               />
-              <p id='t18'>3. (Difficulty: Medium) Longest Increasing Subsequence </p>
+              <a id='links' href="https://leetcode.com/problems/longest-increasing-subsequence/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t18'>3. (Difficulty: Medium) Longest Increasing Subsequence </p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o18'></Inner>
               </div>
@@ -404,7 +451,11 @@ export default function Page1() {
                 ref={handleRef('c19')}
                 onClick={() => handleCheckboxClick('c19')}
               />
-              <p id='t19'>4. (Difficulty: Medium) Longest Common Subsequence </p>
+              <a id='links' href="https://leetcode.com/problems/longest-common-subsequence/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t19'>4. (Difficulty: Medium) Longest Common Subsequence </p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o19'></Inner>
               </div>
@@ -417,7 +468,10 @@ export default function Page1() {
                 ref={handleRef('c20')}
                 onClick={() => handleCheckboxClick('c20')}
               />
-              <p id='t20'>5. (Difficulty: Medium) Word Break Problem</p>
+              <a id='links' href="https://leetcode.com/problems/word-break/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t20'>5. (Difficulty: Medium) Word Break Problem</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o20'></Inner>
               </div>
@@ -430,7 +484,10 @@ export default function Page1() {
                 ref={handleRef('c21')}
                 onClick={() => handleCheckboxClick('c21')}
               />
-              <p id='t21'>6. (Difficulty: Medium) Combination Sum</p>
+              <a id='links' href="https://leetcode.com/problems/combination-sum-iv/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t21'>6. (Difficulty: Medium) Combination Sum IV</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o21'></Inner>
               </div>
@@ -443,7 +500,11 @@ export default function Page1() {
                 ref={handleRef('c22')}
                 onClick={() => handleCheckboxClick('c22')}
               />
-              <p id='t22'>7. (Difficulty: Medium) House Robber</p>
+              <a id='links' href="https://leetcode.com/problems/house-robber/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t22'>7. (Difficulty: Medium) House Robber</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o22'></Inner>
               </div>
@@ -457,7 +518,9 @@ export default function Page1() {
                 ref={handleRef('c23')}
                 onClick={() => handleCheckboxClick('c23')}
               />
-              <p id='t23'>8. (Difficulty: Medium) House Robber II</p>
+              <a id='links' href="https://leetcode.com/problems/house-robber-ii/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t23'>8. (Difficulty: Medium) House Robber II</p>
+              </a>
               <div id='innerBtn'>
                 <Inner id='o23'></Inner>
               </div>
@@ -471,7 +534,10 @@ export default function Page1() {
                 ref={handleRef('c24')}
                 onClick={() => handleCheckboxClick('c24')} s
               />
-              <p id='t24'>9. (Difficulty: Medium) Decode Ways</p>
+              <a id='links' href="https://leetcode.com/problems/decode-ways/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t24'>9. (Difficulty: Medium) Decode Ways</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o24'></Inner>
               </div>
@@ -485,7 +551,10 @@ export default function Page1() {
                 ref={handleRef('c25')}
                 onClick={() => handleCheckboxClick('c25')}
               />
-              <p id='t25'>10. (Difficulty: Medium) Unique Paths</p>
+              <a id='links' href="https://leetcode.com/problems/unique-paths/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t25'>10. (Difficulty: Medium) Unique Paths</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o25'></Inner>
               </div>
@@ -499,7 +568,10 @@ export default function Page1() {
                 ref={handleRef('c26')}
                 onClick={() => handleCheckboxClick('c26')}
               />
-              <p id='t26'>11. (Difficulty: Medium) Jump Game</p>
+              <a id='links' href="https://leetcode.com/problems/jump-game/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t26'>11. (Difficulty: Medium) Jump Game</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o26'></Inner>
               </div>
@@ -522,7 +594,10 @@ export default function Page1() {
                 ref={handleRef('c27')}
                 onClick={() => handleCheckboxClick('c27')}
               />
-              <p id='t27'>1. (Difficulty: Medium) Clone Graph</p>
+              <a id='links' href="https://leetcode.com/problems/clone-graph/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t27'>1. (Difficulty: Medium) Clone Graph</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o27'></Inner>
               </div>
@@ -535,7 +610,11 @@ export default function Page1() {
                 ref={handleRef('c28')}
                 onClick={() => handleCheckboxClick('c28')}
               />
-              <p id='t28'>2. (Difficulty: Medium) Course Schedule</p>
+              <a id='links' href="https://leetcode.com/problems/course-schedule/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t28'>2. (Difficulty: Medium) Course Schedule</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o28'></Inner>
               </div>
@@ -549,7 +628,10 @@ export default function Page1() {
                 ref={handleRef('c29')}
                 onClick={() => handleCheckboxClick('c29')}
               />
-              <p id='t29'>3. (Difficulty: Medium) Pacific Atlantic Water Flow</p>
+              <a id='links' href="https://leetcode.com/problems/pacific-atlantic-water-flow/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t29'>3. (Difficulty: Medium) Pacific Atlantic Water Flow</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o29'></Inner>
               </div>
@@ -562,7 +644,10 @@ export default function Page1() {
                 ref={handleRef('c30')}
                 onClick={() => handleCheckboxClick('c30')}
               />
-              <p id='t30'>4. (Difficulty: Medium) Number of Islands</p>
+              <a id='links' href="https://leetcode.com/problems/number-of-islands/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t30'>4. (Difficulty: Medium) Number of Islands</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o30'></Inner>
               </div>
@@ -575,7 +660,10 @@ export default function Page1() {
                 ref={handleRef('c31')}
                 onClick={() => handleCheckboxClick('c31')}
               />
-              <p id='t31'>5. (Difficulty: Medium) Longest Consecutive Sequence</p>
+              <a id='links' href="https://leetcode.com/problems/longest-consecutive-sequence/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t31'>5. (Difficulty: Medium) Longest Consecutive Sequence</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o31'></Inner>
               </div>
@@ -588,7 +676,10 @@ export default function Page1() {
                 ref={handleRef('c32')}
                 onClick={() => handleCheckboxClick('c32')}
               />
-              <p id='t32'>6. (Difficulty: Medium) Alien Dictionary (Leetcode Premium)</p>
+              <a id='links' href="https://leetcode.com/problems/alien-dictionary/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t32'>6. (Difficulty: Medium) Alien Dictionary (Leetcode Premium)</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o32'></Inner>
               </div>
@@ -601,7 +692,10 @@ export default function Page1() {
                 ref={handleRef('c33')}
                 onClick={() => handleCheckboxClick('c33')}
               />
-              <p id='t33'>7. (Difficulty: Medium) Graph Valid Tree (Leetcode Premium) (Leetcode Premium)</p>
+              <a id='links' href="https://leetcode.com/problems/graph-valid-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t33'>7. (Difficulty: Medium) Graph Valid Tree (Leetcode Premium)</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o33'></Inner>
               </div>
@@ -614,7 +708,10 @@ export default function Page1() {
                 ref={handleRef('c34')}
                 onClick={() => handleCheckboxClick('c34')}
               />
-              <p id='t34'>8. (Difficulty: Medium) Number of Connected Components in an Undirected Graph (Leetcode Premium)</p>
+              <a id='links' href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t34'>8. (Difficulty: Medium) Number of Connected Components in an Undirected Graph (Leetcode Premium)</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o34'></Inner>
               </div>
@@ -631,8 +728,6 @@ export default function Page1() {
 
           </ul>
         </div>
-      
-
 
         <div className="box">
           <ul className="list">
@@ -645,7 +740,10 @@ export default function Page1() {
                 ref={handleRef('c35')}
                 onClick={() => handleCheckboxClick('c35')}
               />
-              <p id='t35'>1. (Difficulty: Medium) Insert Interval</p>
+              <a id='links' href="https://leetcode.com/problems/insert-interval/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t35'>1. (Difficulty: Medium) Insert Interval</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o35'></Inner>
               </div>
@@ -658,24 +756,16 @@ export default function Page1() {
                 ref={handleRef('c36')}
                 onClick={() => handleCheckboxClick('c36')}
               />
-              <p id='t36'>2. (Difficulty: Medium) Insert Interval</p>
+              <a id='links' href="https://leetcode.com/problems/merge-intervals/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t36'>2. (Difficulty: Medium) Merge Intervals</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o36'></Inner>
               </div>
             </li>
 
-            <li>
-              <input
-                id='c37'
-                type="checkbox"
-                ref={handleRef('c37')}
-                onClick={() => handleCheckboxClick('c37')}
-              />
-              <p id='t37'>3. (Difficulty: Medium) Merge Intervals</p>
-              <div id='innerBtn'>
-                <Inner id='o37'></Inner>
-              </div>
-            </li>
+
 
             <li>
               <input
@@ -684,7 +774,10 @@ export default function Page1() {
                 ref={handleRef('c38')}
                 onClick={() => handleCheckboxClick('c38')}
               />
-              <p id='t38'>4. (Difficulty: Medium) Non-overlapping Intervals</p>
+              <a id='links' href="https://leetcode.com/problems/non-overlapping-intervals/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t38'>3. (Difficulty: Medium) Non-overlapping Intervals</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o38'></Inner>
               </div>
@@ -697,7 +790,10 @@ export default function Page1() {
                 ref={handleRef('c39')}
                 onClick={() => handleCheckboxClick('c39')}
               />
-              <p id='t39'>5. (Difficulty: Medium) Meeting Rooms (Leetcode Premium)</p>
+              <a id='links' href="https://leetcode.com/problems/meeting-rooms/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t39'>4. (Difficulty: Medium) Meeting Rooms (Leetcode Premium)</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o39'></Inner>
               </div>
@@ -711,7 +807,11 @@ export default function Page1() {
                 ref={handleRef('c40')}
                 onClick={() => handleCheckboxClick('c40')}
               />
-              <p id='t40'>6. (Difficulty: Medium) Meeting Rooms II (Leetcode Premium)</p>
+              <a id='links' href="https://leetcode.com/problems/meeting-rooms-ii/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t40'>5. (Difficulty: Medium) Meeting Rooms II (Leetcode Premium)</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o40'></Inner>
               </div>
@@ -742,7 +842,10 @@ export default function Page1() {
                 ref={handleRef('c41')}
                 onClick={() => handleCheckboxClick('c41')}
               />
-              <p id='t41'>1. (Difficulty: Medium) Reverse a Linked List</p>
+              <a id='links' href="https://leetcode.com/problems/reverse-linked-list/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t41'>1. (Difficulty: Easy) Reverse a Linked List</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o41'></Inner>
               </div>
@@ -755,7 +858,10 @@ export default function Page1() {
                 ref={handleRef('c42')}
                 onClick={() => handleCheckboxClick('c42')}
               />
-              <p id='t42'>2. (Difficulty: Medium) Detect Cycle in a Linked List</p>
+              <a id='links' href="https://leetcode.com/problems/linked-list-cycle/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t42'>2. (Difficulty: Easy) Detect Cycle in a Linked List</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o42'></Inner>
               </div>
@@ -768,7 +874,10 @@ export default function Page1() {
                 ref={handleRef('c43')}
                 onClick={() => handleCheckboxClick('c43')}
               />
-              <p id='t43'>3. (Difficulty: Easay) Merge Two Sorted Lists</p>
+              <a id='links' href="https://leetcode.com/problems/merge-two-sorted-lists/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t43'>3. (Difficulty: Easy) Merge Two Sorted Lists</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o43'></Inner>
               </div>
@@ -782,7 +891,10 @@ export default function Page1() {
                 ref={handleRef('c44')}
                 onClick={() => handleCheckboxClick('c44')}
               />
-              <p id='t44'>4. (Difficulty: Easy) Merge K Sorted Lists</p>
+              <a id='links' href="https://leetcode.com/problems/merge-k-sorted-lists/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t44'>4. (Difficulty: Easy) Merge K Sorted Lists</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o44'></Inner>
               </div>
@@ -795,7 +907,10 @@ export default function Page1() {
                 ref={handleRef('c45')}
                 onClick={() => handleCheckboxClick('c45')}
               />
-              <p id='t45'>5. (Difficulty: Medium) Remove Nth Node From End Of List</p>
+              <a id='links' href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t45'>5. (Difficulty: Medium) Remove Nth Node From End Of List</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o45'></Inner>
               </div>
@@ -808,7 +923,10 @@ export default function Page1() {
                 ref={handleRef('c46')}
                 onClick={() => handleCheckboxClick('c46')}
               />
-              <p id='t46'>5. (Difficulty: Medium) Reorder List</p>
+              <a id='links' href="https://leetcode.com/problems/reorder-list/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t46'>5. (Difficulty: Medium) Reorder List</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o46'></Inner>
               </div>
@@ -840,7 +958,10 @@ export default function Page1() {
                 ref={handleRef('c47')}
                 onClick={() => handleCheckboxClick('c47')}
               />
-              <p id='t47'>1. (Difficulty: Medium) Set Matrix Zeroes</p>
+              <a id='links' href="https://leetcode.com/problems/set-matrix-zeroes/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t47'>1. (Difficulty: Medium) Set Matrix Zeroes</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o47'></Inner>
               </div>
@@ -853,7 +974,10 @@ export default function Page1() {
                 ref={handleRef('c48')}
                 onClick={() => handleCheckboxClick('c48')}
               />
-              <p id='t48'>2. (Difficulty: Medium) Spiral Matrix</p>
+              <a id='links' href="https://leetcode.com/problems/spiral-matrix/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t48'>2. (Difficulty: Medium) Spiral Matrix</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o48'></Inner>
               </div>
@@ -867,7 +991,10 @@ export default function Page1() {
                 ref={handleRef('c49')}
                 onClick={() => handleCheckboxClick('c49')}
               />
-              <p id='t49'>3. (Difficulty: Medium) Rotate Image</p>
+              <a id='links' href="https://leetcode.com/problems/spiral-matrix/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t49'>3. (Difficulty: Medium) Rotate Image</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o49'></Inner>
               </div>
@@ -880,7 +1007,11 @@ export default function Page1() {
                 ref={handleRef('c50')}
                 onClick={() => handleCheckboxClick('c50')}
               />
-              <p id='t50'>4. (Difficulty: Medium) Word Search</p>
+              <a id='links' href="https://leetcode.com/problems/word-search/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t50'>4. (Difficulty: Medium) Word Search</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o50'></Inner>
               </div>
@@ -912,7 +1043,10 @@ export default function Page1() {
                 ref={handleRef('c51')}
                 onClick={() => handleCheckboxClick('c51')}
               />
-              <p id='t51'>1. (Difficulty: Medium) Longest Substring Without Repeating Characters</p>
+              <a id='links' href="https://leetcode.com/problems/longest-substring-without-repeating-characters/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t51'>1. (Difficulty: Medium) Longest Substring Without Repeating Characters</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o51'></Inner>
               </div>
@@ -925,7 +1059,10 @@ export default function Page1() {
                 ref={handleRef('c52')}
                 onClick={() => handleCheckboxClick('c52')}
               />
-              <p id='t52'>2. (Difficulty: Medium) Longest Repeating Character Replacement</p>
+              <a id='links' href="https://leetcode.com/problems/longest-repeating-character-replacement/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t52'>2. (Difficulty: Medium) Longest Repeating Character Replacement</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o52'></Inner>
               </div>
@@ -939,7 +1076,10 @@ export default function Page1() {
                 ref={handleRef('c53')}
                 onClick={() => handleCheckboxClick('c53')}
               />
-              <p id='t53'>3. (Difficulty: Medium) Minimum Window Substring</p>
+              <a id='links' href="https://leetcode.com/problems/minimum-window-substring/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t53'>3. (Difficulty: Hard) Minimum Window Substring</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o53'></Inner>
               </div>
@@ -952,7 +1092,10 @@ export default function Page1() {
                 ref={handleRef('c54')}
                 onClick={() => handleCheckboxClick('c54')}
               />
-              <p id='t54'>4. (Difficulty: Medium) Valid Anagram</p>
+              <a id='links' href="https://leetcode.com/problems/valid-anagram/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t54'>4. (Difficulty: Easy) Valid Anagram</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o54'></Inner>
               </div>
@@ -965,7 +1108,10 @@ export default function Page1() {
                 ref={handleRef('c55')}
                 onClick={() => handleCheckboxClick('c55')}
               />
-              <p id='t55'>5. (Difficulty: Medium) Group Anagrams</p>
+              <a id='links' href="https://leetcode.com/problems/group-anagrams/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t55'>5. (Difficulty: Medium) Group Anagrams</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o55'></Inner>
               </div>
@@ -978,7 +1124,10 @@ export default function Page1() {
                 ref={handleRef('c56')}
                 onClick={() => handleCheckboxClick('c56')}
               />
-              <p id='t56'>6. (Difficulty: Medium) Valid Parentheses</p>
+              <a id='links' href="https://leetcode.com/problems/valid-parentheses/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t56'>6. (Difficulty: Easy) Valid Parentheses</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o56'></Inner>
               </div>
@@ -991,7 +1140,10 @@ export default function Page1() {
                 ref={handleRef('c57')}
                 onClick={() => handleCheckboxClick('c57')}
               />
-              <p id='t57'>7. (Difficulty: Medium) Valid Palindrome</p>
+              <a id='links' href="https://leetcode.com/problems/valid-palindrome/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t57'>7. (Difficulty: Easy) Valid Palindrome</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o57'></Inner>
               </div>
@@ -1004,7 +1156,10 @@ export default function Page1() {
                 ref={handleRef('c58')}
                 onClick={() => handleCheckboxClick('c58')}
               />
-              <p id='t58'>8. (Difficulty: Medium) Longest Palindromic Substring</p>
+              <a id='links' href="https://leetcode.com/problems/longest-palindromic-substring/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t58'>8. (Difficulty: Medium) Longest Palindromic Substring</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o58'></Inner>
               </div>
@@ -1017,7 +1172,11 @@ export default function Page1() {
                 ref={handleRef('c59')}
                 onClick={() => handleCheckboxClick('c59')}
               />
-              <p id='t59'>9. (Difficulty: Medium) Palindromic Substrings</p>
+              <a id='links' href="https://leetcode.com/problems/palindromic-substrings/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t59'>9. (Difficulty: Medium) Palindromic Substrings</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o59'></Inner>
               </div>
@@ -1030,7 +1189,10 @@ export default function Page1() {
                 ref={handleRef('c60')}
                 onClick={() => handleCheckboxClick('c60')}
               />
-              <p id='t60'>10. (Difficulty: Medium) Encode and Decode Strings (Leetcode Premium)</p>
+              <a id='links' href="https://leetcode.com/problems/encode-and-decode-strings/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t60'>10. (Difficulty: Medium) Encode and Decode Strings (Leetcode Premium)</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o60'></Inner>
               </div>
@@ -1054,6 +1216,8 @@ export default function Page1() {
           </ul>
         </div>
 
+
+
         <div className="box">
           <ul className="list">
             <li id="topicArrays">Topic: Tree</li>
@@ -1065,7 +1229,11 @@ export default function Page1() {
                 ref={handleRef('c61')}
                 onClick={() => handleCheckboxClick('c61')}
               />
-              <p id='t61'>1. (Difficulty: Medium) Maximum Depth of Binary Tree</p>
+
+              <a id='links' href="https://leetcode.com/problems/maximum-depth-of-binary-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t61'>1. (Difficulty: Easy) Maximum Depth of Binary Tree</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o61'></Inner>
               </div>
@@ -1078,7 +1246,11 @@ export default function Page1() {
                 ref={handleRef('c62')}
                 onClick={() => handleCheckboxClick('c62')}
               />
-              <p id='t62'>2. (Difficulty: Medium) Same Tree</p>
+              <a id='links' href="https://leetcode.com/problems/same-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t62'>2. (Difficulty: Medium) Same Tree</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o62'></Inner>
               </div>
@@ -1091,7 +1263,10 @@ export default function Page1() {
                 ref={handleRef('c63')}
                 onClick={() => handleCheckboxClick('c63')}
               />
-              <p id='t63'>3. (Difficulty: Medium) Invert/Flip Binary Tree</p>
+              <a id='links' href="https://leetcode.com/problems/same-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t63'>3. (Difficulty: Easy) Invert/Flip Binary Tree</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o63'></Inner>
               </div>
@@ -1104,7 +1279,10 @@ export default function Page1() {
                 ref={handleRef('c64')}
                 onClick={() => handleCheckboxClick('c64')}
               />
-              <p id='t64'>4. (Difficulty: Medium) Binary Tree Maximum Path Sum</p>
+              <a id='links' href="https://leetcode.com/problems/binary-tree-maximum-path-sum/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t64'>4. (Difficulty: Hard) Binary Tree Maximum Path Sum</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o64'></Inner>
               </div>
@@ -1118,20 +1296,25 @@ export default function Page1() {
                 ref={handleRef('c65')}
                 onClick={() => handleCheckboxClick('c65')}
               />
-              <p id='t65'>5. (Difficulty: Medium) Binary Tree Level Order Traversal</p>
+              <a id='links' href="https://leetcode.com/problems/binary-tree-level-order-traversal/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t65'>5. (Difficulty: Medium) Binary Tree Level Order Traversal</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o65'></Inner>
               </div>
             </li>
 
             <li>
+              <a id='links' href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" target="_blank" rel="noopener noreferrer" >
+                <p id='t66'>6. (Difficulty: Hard) Serialize and Deserialize Binary Tree</p>
+              </a>
               <input
                 id='c66'
                 type="checkbox"
                 ref={handleRef('c66')}
                 onClick={() => handleCheckboxClick('c66')}
               />
-              <p id='t66'>6. (Difficulty: Medium) Serialize and Deserialize Binary Tree</p>
               <div id='innerBtn'>
                 <Inner id='o66'></Inner>
               </div>
@@ -1144,7 +1327,10 @@ export default function Page1() {
                 ref={handleRef('c67')}
                 onClick={() => handleCheckboxClick('c67')}
               />
-              <p id='t67'>7. (Difficulty: Medium) Subtree of Another Tree</p>
+              <a id='links' href="https://leetcode.com/problems/subtree-of-another-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t67'>7. (Difficulty: Easy) Subtree of Another Tree</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o67'></Inner>
               </div>
@@ -1158,7 +1344,10 @@ export default function Page1() {
                 ref={handleRef('c68')}
                 onClick={() => handleCheckboxClick('c68')}
               />
-              <p id='t68'>8. (Difficulty: Medium) Construct Binary Tree from Preorder and Inorder Traversal</p>
+              <a id='links' href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t68'>8. (Difficulty: Medium) Construct Binary Tree from Preorder and Inorder Traversal</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o68'></Inner>
               </div>
@@ -1171,22 +1360,12 @@ export default function Page1() {
                 ref={handleRef('c69')}
                 onClick={() => handleCheckboxClick('c69')}
               />
-              <p id='t69'>9. (Difficulty: Medium) Validate Binary Search Tree</p>
+              <a id='links' href="https://leetcode.com/problems/validate-binary-search-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t69'>9. (Difficulty: Medium) Validate Binary Search Tree</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o69'></Inner>
-              </div>
-            </li>
-
-            <li>
-              <input
-                id='c70'
-                type="checkbox"
-                ref={handleRef('c70')}
-                onClick={() => handleCheckboxClick('c70')}
-              />
-              <p id='t70'>10. (Difficulty: Medium) Validate Binary Search Tree</p>
-              <div id='innerBtn'>
-                <Inner id='o70'></Inner>
               </div>
             </li>
 
@@ -1198,7 +1377,9 @@ export default function Page1() {
                 ref={handleRef('c71')}
                 onClick={() => handleCheckboxClick('c71')}
               />
-              <p id='t71'>11. (Difficulty: Medium) Kth Smallest Element in a BST</p>
+              <a id='links' href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t71'>10. (Difficulty: Medium) Kth Smallest Element in a BST</p>
+              </a>
               <div id='innerBtn'>
                 <Inner id='o71'></Inner>
               </div>
@@ -1211,7 +1392,11 @@ export default function Page1() {
                 ref={handleRef('c72')}
                 onClick={() => handleCheckboxClick('c72')}
               />
-              <p id='t72'>12. (Difficulty: Medium) Lowest Common Ancestor of BST</p>
+              <a id='links' href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t72'>12. (Difficulty: Medium) Lowest Common Ancestor of BST</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o72'></Inner>
               </div>
@@ -1224,7 +1409,10 @@ export default function Page1() {
                 ref={handleRef('c73')}
                 onClick={() => handleCheckboxClick('c73')}
               />
-              <p id='t73'>13. (Difficulty: Medium) Implement Trie (Prefix Tree)</p>
+              <a id='links' href="https://leetcode.com/problems/implement-trie-prefix-tree/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t73'>13. (Difficulty: Medium) Implement Trie (Prefix Tree)</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o73'></Inner>
               </div>
@@ -1237,7 +1425,9 @@ export default function Page1() {
                 ref={handleRef('c74')}
                 onClick={() => handleCheckboxClick('c74')}
               />
-              <p id='t74'>14. (Difficulty: Medium) Add and Search Word</p>
+              <a id='links' href="https://leetcode.com/problems/design-add-and-search-words-data-structure/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t74'>14. (Difficulty: Medium) Add and Search Word</p>
+              </a>
               <div id='innerBtn'>
                 <Inner id='o74'></Inner>
               </div>
@@ -1250,7 +1440,10 @@ export default function Page1() {
                 ref={handleRef('c75')}
                 onClick={() => handleCheckboxClick('c75')}
               />
-              <p id='t75'>15. (Difficulty: Medium) Word Search II</p>
+              <a id='links' href="https://leetcode.com/problems/word-search-ii/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t75'>15. (Difficulty: Hard) Word Search II</p>
+              </a>
+
               <div id='innerBtn'>
                 <Inner id='o75'></Inner>
               </div>
@@ -1282,7 +1475,8 @@ export default function Page1() {
 
         <div className="box">
           <ul className="list">
-            <li id="topicArrays">Topic: Heap</li>
+
+
             <li>
               <input
                 id='c76'
@@ -1290,11 +1484,54 @@ export default function Page1() {
                 ref={handleRef('c76')}
                 onClick={() => handleCheckboxClick('c76')}
               />
-              <p id='t76'>1. (Difficulty: Medium) Maximum Depth of Binary Tree</p>
+
+              <a id='links' href="https://leetcode.com/problems/merge-k-sorted-lists/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t76'>1. (Difficulty: Hard) Maximum Depth of Binary Tree</p>
+              </a>
+
+
               <div id='innerBtn'>
                 <Inner id='o76'></Inner>
               </div>
             </li>
+
+            <li>
+              <input
+                id='c77'
+                type="checkbox"
+                ref={handleRef('c77')}
+                onClick={() => handleCheckboxClick('c77')}
+              />
+
+              <a id='links' href="https://leetcode.com/problems/top-k-frequent-elements/description/" target="_blank" rel="noopener noreferrer" >
+                <p id='t77'>2. (Difficulty: Medium) Top K Frequent Elements</p>
+              </a>
+
+              <div id='innerBtn'>
+                <Inner id='o77'></Inner>
+              </div>
+            </li>
+
+
+            <li>
+              <input
+                id='c78'
+                type="checkbox"
+                ref={handleRef('c78')}
+                onClick={() => handleCheckboxClick('c78')}
+              />
+
+              <a id='links' href="https://leetcode.com/problems/find-median-from-data-stream/description/" target="_blank" rel="noopener noreferrer" >
+
+                <p id='t78'>3. (Difficulty: Hard) Find Median from Data Stream</p>
+              </a>
+
+
+              <div id='innerBtn'>
+                <Inner id='o78'></Inner>
+              </div>
+            </li>
+
 
 
 

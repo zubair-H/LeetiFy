@@ -1,4 +1,5 @@
 .container {
+    max-height: 500px;
     display: grid;
     grid-template-columns: repeat(3, 0.5fr);
     /* 3 equal columns */
@@ -108,25 +109,30 @@
 }
 
 .checked {
-    color: #00ff6a;
-}
-
-.unchecked {
-    color: white;
+    color: #54b87e;
+    text-decoration-color: #54b87e;
+    text-decoration: underline;
+    /* Set the underline color */
 }
 
 .checked::after {
     content: ' (✓)';
-    color: #00ff6a;
-    text-decoration: underline;
+    color: #54b87e;
+
+
+
 }
 
 p {
     margin-top: -18px;
     margin-left: 25px;
+
 }
 
 #links {
     color: #88c0fc;
     text-decoration: underline;
+
+
+
 }
