@@ -5,10 +5,6 @@ import './index.css'
 import Home from './components/Home.jsx'
 
 
-import Binary from './components/Binary.jsx'
-import DynamicProgramming from './components/DynamicProgramming.jsx'
-import Graph from './components/Grap.jsx'
-import Interval from './components/Interval.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

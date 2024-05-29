@@ -1,0 +1,114 @@
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+
+
+}
+
+#notesDisplay,
+#linksDisplay {
+    margin-top: 20px;
+    animation: popDown 1s ease-out forwards;
+    font-weight: lighter;
+
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+#linksDisplay form {
+    margin-bottom: 15px;
+}
+
+#linksDisplay input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#linksDisplay button {
+    background-color: #212121;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1.5px solid #acacac;
+}
+
+#linksDisplay ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#linksDisplay li {
+    margin: 5px 0;
+}
+
+#linksDisplay a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#linksDisplay a:hover {
+    text-decoration: underline;
+}
+
+
+#oneBtn,
+#one1Btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+    background-color: transparent;
+    border: 1px solid #767575;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    outline: none;
+    padding: 8px 18px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+    animation: popDown 1s ease-out forwards;
+    font-weight: lighter;
+}
+
+#oneBtn:hover,
+#one1Btn:hover {
+    background: linear-gradient(to right, #696868, #434343);
+    color: rgb(0, 0, 0);
+    transform: translateY(3px);
+    animation: popDown 1s ease-out forwards;
+
+
+}
+
+
+
+
+#buttonDiv {
+
+    margin-top: -43px;
+    margin-left: 250px;
+}

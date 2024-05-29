@@ -1,12 +1,78 @@
-#topicArrays {
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    /* 3 equal columns */
+    grid-template-rows: repeat(2, auto);
+    /* 2 rows */
+
+    margin-left: 28px;
+    margin-top: 590px;
+    gap: 23px;
+
+
+
+
+}
+
+.box {
+    padding: 5px;
+    margin-left: -10px;
+
+   
+
+
+    width: 510px;
+    height: 270px;
+    font-size: 15px;
     text-align: left;
+    color: #ffffff;
+    background-color: #131313;
+    /* Example background color to see the contrast */
+    border-radius: 15px;
+
+    overflow-y: scroll;
+    border: 1.5px solid #acacac;
+
 }
 
 
+
+.graph {
+    color: white;
+    grid-column: 3/ 4;
+    /* Graph in the third column */
+    grid-row: 1/ 3;
+    /* Graph spanning two rows */
+    background-color: #ffffff;
+    /* Match the background of the boxes */
+    border-radius: 15px;
+
+    max-height: 0px;
+    max-width: 0px;
+    
+   
+    margin-top: -145px;
+    margin-left: -20px;
+}
+
+
+#topicArrays {
+    font-size: 22px;
+    text-align: left;
+   
+
+}
+
+
+
+
 .list {
+   
+    
+
     padding: 0;
     padding-right: 0;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
     text-align: left;
 
@@ -15,9 +81,10 @@
 
 
 .list li {
+    margin-top: 10px;
     padding: 10px;
     /* Add padding to list items */
-    border-bottom: 1px solid #4a4a4a;
+    border-bottom: 1px solid #5c5c5c;
     /* Add border bottom to separate items */
 }
 
@@ -26,203 +93,34 @@
     /* Remove border bottom from last item */
 }
 
-#same {
 
-    background-color: transparent;
-    border: 1px solid #767575;
-    border-radius: 12px;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    padding: 8px 18px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    touch-action: manipulation;
-    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
-    user-select: none;
-    -webkit-user-select: none;
-    width: auto;
-    animation: popDown 1s ease-out forwards;
-    font-weight: lighter;
+
+
+
+
+
+
+
+#innerBtn {
+
+    margin-left: -235px;
+    margin-top: 50px;
 }
 
-#same:focus-visible {
-    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
-    transition: box-shadow .2s;
-    animation: popDown 1s ease-out forwards;
+.checked {
+    color: #00ff6a;
 }
 
-#same:active {
-    background-color: #F7F7F7;
-    border-color: #000000;
-    transform: scale(.96);
-    animation: popDown 1s ease-out forwards;
+.unchecked {
+    color: white;
 }
 
-#same:hover {
-    background: linear-gradient(to right, #696868, #434343);
-    color: rgb(0, 0, 0);
-    transform: translateY(3px);
-    animation: popDown 1s ease-out forwards;
-
-
+.checked::after {
+    content: ' (✓)';
+    color: #00ff6a;
 }
 
-#same:disabled {
-    border-color: #DDDDDD;
-    color: #DDDDDD;
-    cursor: not-allowed;
-    opacity: 1;
-    animation: popDown 1s ease-out forwards;
-}
-
-
-
-
-
-#link {
-    background-color: transparent;
-    border: 1px solid #767575;
-    border-radius: 12px;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    padding: 5px 19px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    touch-action: manipulation;
-    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
-    user-select: none;
-    -webkit-user-select: none;
-    width: auto;
-    animation: popDown 1s ease-out forwards;
-    font-weight: lighter;
-}
-
-#link:focus-visible {
-    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
-    transition: box-shadow .2s;
-    animation: popDown 1s ease-out forwards;
-}
-
-#link:active {
-    background-color: #F7F7F7;
-    border-color: #000000;
-    transform: scale(.96);
-    animation: popDown 1s ease-out forwards;
-}
-
-#link:hover {
-    background: linear-gradient(to right, #696868, #434343);
-    color: rgb(0, 0, 0);
-    transform: translateY(3px);
-    animation: popDown 1s ease-out forwards;
-
-
-}
-
-#link:disabled {
-    border-color: #DDDDDD;
-    color: #DDDDDD;
-    cursor: not-allowed;
-    opacity: 1;
-    animation: popDown 1s ease-out forwards;
-}
-
-
-
-
-
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* 3 equal columns */
-    grid-template-rows: repeat(2, auto);
-    /* 2 rows */
-    gap: 25px;
-    margin-left: 1px;
-    margin-top: 490px;
-
-
-    /* Adjust the max-width as needed */
-}
-
-.box {
-    text-align: left;
-    color: #ffffff;
-    background-color: #212121;
-    /* Example background color to see the contrast */
-    border-radius: 15px;
-    height: 250px;
-    overflow-y: scroll;
-    border: 1.5px solid #acacac;
-
-}
-
-.graph {
-    grid-column: 3 / 4;
-    /* Graph in the third column */
-    grid-row: 1 / 3;
-    /* Graph spanning two rows */
-    background-color: #ffffff;
-    /* Match the background of the boxes */
-    border-radius: 15px;
-    max-width: 0px;
-    max-height: 100px;
-    margin-top: -140px;
-}
-
-#same {
-    margin-left: 0px;
-
-
-}
-
-
-#oneBtn, #one1Btn {
-    margin-left: 10px;
-    background-color: transparent;
-    border: 1px solid #767575;
-    border-radius: 12px;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    padding: 8px 18px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    touch-action: manipulation;
-    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
-    user-select: none;
-    -webkit-user-select: none;
-    width: auto;
-    animation: popDown 1s ease-out forwards;
-    font-weight: lighter;
-}
-
-#buttonDiv {
-
-    margin-top: -43px;
-    margin-left: 250px;
+p{
+    margin-top: -20px;
+    margin-left: 30px;
 }
