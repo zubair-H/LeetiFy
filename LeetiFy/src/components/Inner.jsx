@@ -85,7 +85,7 @@ export default function Inner({ id }) {
                         {links.map((link, index) => (
                             <li key={index}>
                                 <a href={link} target='_blank' rel='noopener noreferrer'>{link}</a>
-                                <button onClick={() => removeLink(index)}>x</button>
+                                <button  id='xBtn' onClick={() => removeLink(index)}>x</button>
                             </li>
                         ))}
                     </ul>

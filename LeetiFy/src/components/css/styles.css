@@ -1,11 +1,3 @@
-button {
-    margin: 5px;
-    padding: 10px 15px;
-    font-size: 16px;
-
-
-}
-
 #notesDisplay,
 #linksDisplay {
     margin-top: 20px;
@@ -40,9 +32,19 @@ textarea {
     background-color: #212121;
     color: white;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 10px;
     border: 1.5px solid #acacac;
+}
+
+#linksDisplay #xBtn {
+    background-color: #212121;
+    color: white;
+    padding: 3px 14px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: 1.5px solid #acacac;
+    margin-left: 10px;
 }
 
 #linksDisplay ul {
@@ -52,12 +54,13 @@ textarea {
 
 #linksDisplay li {
     margin: 5px 0;
+
 }
 
 #linksDisplay a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #linksDisplay a:hover {
@@ -69,6 +72,8 @@ textarea {
 #one1Btn {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+
 
 
     background-color: transparent;
@@ -95,11 +100,13 @@ textarea {
 }
 
 #oneBtn:hover,
-#one1Btn:hover {
+#one1Btn:hover,
+button:hover {
     background: linear-gradient(to right, #696868, #434343);
     color: rgb(0, 0, 0);
-    transform: translateY(3px);
-    animation: popDown 1s ease-out forwards;
+    cursor: pointer;
+
+
 
 
 }
