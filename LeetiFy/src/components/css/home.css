@@ -1,3 +1,20 @@
+@media (min-width: 0px) {
+    #container {
+        text-align: center;
+    }
+
+    @keyframes popDown {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
 
     @keyframes popUp {
         from {
@@ -11,12 +28,15 @@
         }
     }
 
+
+
     .box {
         animation: popUp 1s ease-out forwards;
     }
 
     #container {
         font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
     }
 
     /* Rest of your CSS styles */
@@ -40,6 +60,37 @@
         margin-bottom: -20px;
         animation: popUp 1.2s ease-out forwards;
     }
+
+    #header {
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        /* Ensures the header stays on top of other elements */
+        animation: popDown 1s ease-out forwards;
+    }
+
+    #linkedInPng {
+
+        margin-top: 14px;
+        width: 45px;
+        position: absolute;
+        margin-right: 55px;
+        /* Position the icon */
+        right: 0;
+        /* Align it to the far right */
+        top: -5%;
+        /* Vertically center it */
+        transform: translateY(-50%);
+        /* Adjust for perfect vertical alignment */
+        animation: popDown 1s ease-out forwards;
+    }
+
+
 
     .button-30 {
         align-items: center;
@@ -75,6 +126,9 @@
         animation: popUp 1.4s ease-out forwards;
     }
 
+    
+
+
     .button-30:focus {
         box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     }
@@ -92,53 +146,8 @@
         background: linear-gradient(to right, #fca903, #ff6200);
     }
 
-    @keyframes popDown {
-        from {
-            transform: translateY(-100%);
-            opacity: 0;
-        }
-
-        to {
-            transform: translateY(0);
-            opacity: 1;
-        }
-    }
 
 
-
-    #header {
-        backdrop-filter: blur(10px);
-        position: fixed;
-        top: 0;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-
-
-        padding: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-        /* Ensures the header stays on top of other elements */
-        animation: popDown 1s ease-out forwards;
-    }
-
-    #linkedInPng {
-
-        margin-top: 14px;
-        width: 45px;
-        position: absolute;
-        margin-right: 55px;
-        /* Position the icon */
-        right: 0;
-        /* Align it to the far right */
-        top: -5%;
-        /* Vertically center it */
-        transform: translateY(-50%);
-        /* Adjust for perfect vertical alignment */
-        animation: popDown 1s ease-out forwards;
-    }
 
 
     /* CSS */
@@ -273,3 +282,16 @@
     html {
         scroll-behavior: smooth;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+}

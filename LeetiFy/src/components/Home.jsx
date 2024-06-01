@@ -38,19 +38,21 @@ export default function Home() {
                         <img id="linkedInPng" src={image} alt="" />
                     </a>
 
-                    <button id="backBtn" onClick={handleBackClick}>Back</button>
+                    <button className='btn' id="backBtn" onClick={handleBackClick}>Back</button>
 
                     <a href="https://github.com/zubair-H" target="_blank" rel="noopener noreferrer">
-                        <button id="button-23" >Portfolio</button>
+                        <button className='btn' id="button-23" >Portfolio</button>
                     </a>
 
                     <a href="https://github.com/zubair-H" target="_blank" rel="noopener noreferrer">
-                        <button id="button-23">Github</button>
+                        <button className='btn' id="button-23">Github</button>
                     </a>
                 </div>
-                <h3 id="logo">LeetiFy</h3>
-                <p id="missionStatement">Life is temporary, but LeetCode is forever</p>
-                <button className="button-30" onClick={handleTryNowClick}>Try Now!</button>
+                <div id='main'>
+                    <h3 id="logo">LeetiFy</h3>
+                    <p id="missionStatement">Life is temporary, but LeetCode is forever</p>
+                    <button className="button-30" id='tryNow' onClick={handleTryNowClick}>Try Now!</button>
+                </div>
             </div>
             <div
                 ref={newPageRef}
