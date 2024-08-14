@@ -34,21 +34,19 @@ export default function Home() {
         <div id="container">
             <div>
                 <div id="header">
-                    <a href="https://www.linkedin.com/in/zubair-habibi-606552246/" target="_blank" rel="noopener noreferrer">
-                        <img id="linkedInPng" src={image} alt="" />
-                    </a>
+                <img id="linkedInPng" src={image} alt="" />
 
                     <button id="backBtn" onClick={handleBackClick}>Back</button>
 
-                    <a href="https://github.com/zubair-H" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/zubair-H" >
                         <button id="button-23" >Portfolio</button>
                     </a>
 
-                    <a href="https://github.com/zubair-H" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/zubair-H" >
                         <button id="button-23">Github</button>
                     </a>
                 </div>
-                <h3 id="logo">LeetiFy</h3>
+                <p className='title' id="logo">LeetiFy</p>
                 <p id="missionStatement">Life is temporary, but LeetCode is forever</p>
                 <button className="button-30" onClick={handleTryNowClick}>Try Now!</button>
             </div>

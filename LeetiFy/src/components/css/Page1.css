@@ -4,10 +4,6 @@
     grid-template-columns: repeat(3, 0.5fr);
     /* 3 equal columns */
     grid-template-rows: repeat(2, auto);
-    /* 2 rows */
-
-
-
     margin-top: 590px;
     gap: 23px;
     margin-left: 10px;

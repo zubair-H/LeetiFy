@@ -1,8 +1,10 @@
+
 #notesDisplay,
 #linksDisplay {
     margin-top: 20px;
     animation: popDown 1s ease-out forwards;
     font-weight: lighter;
+    
 
 }
 
